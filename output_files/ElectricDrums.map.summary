@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Dec 31 17:29:31 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : ElectricDrums
+Top-level Entity Name : ElectricDrums
+Family : MAX 10
+Total logic elements : 222
+    Total combinational functions : 123
+    Dedicated logic registers : 146
+Total registers : 146
+Total pins : 35
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 1

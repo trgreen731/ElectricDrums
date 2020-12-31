@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="60b7bfaeccb936e6f06c"/>
+  </project>
+  <file_info>
+    <file device="10M50DAF484C7G" path="ElectricDrums.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="adc_qsys:u0" name="u0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME adc_qsys HAS_SOPCINFO 1 GENERATION_ID 1609454163"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

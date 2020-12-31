@@ -1,0 +1,96 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\Users\trgre\Documents\UIUC\2020-2021-Junior\ECE385\FinalProjectHelperFiles\DE10-Lite_v.2.1.0_SystemCD\Demonstrations\ADC_RTL\adc_qsys.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\trgre\Documents\UIUC\2020-2021-Junior\ECE385\FinalProjectHelperFiles\DE10-Lite_v.2.1.0_SystemCD\Demonstrations\ADC_RTL\adc_qsys\simulation --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ADC_RTL/adc_qsys.qsys
+Progress: Reading input file
+Progress: Adding altpll_sys [altpll 18.1]
+Progress: Parameterizing module altpll_sys
+Progress: Adding clk_50 [clock_source 18.1]
+Progress: Parameterizing module clk_50
+Progress: Adding clock_bridge_sys [altera_clock_bridge 18.1]
+Progress: Parameterizing module clock_bridge_sys
+Progress: Adding modular_adc_0 [altera_modular_adc 18.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: adc_qsys.altpll_sys: altpll_sys.areset_conduit must be exported, or connected to a matching conduit.
+Warning: adc_qsys.altpll_sys: altpll_sys.pll_slave must be connected to an Avalon-MM master
+Info: adc_qsys: Generating adc_qsys "adc_qsys" for SIM_VERILOG
+Info: altpll_sys: Generating Verilog simulation model
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info: altpll_sys: Generated simulation model adc_qsys_altpll_sys.vo
+Info: altpll_sys: "adc_qsys" instantiated altpll "altpll_sys"
+Info: modular_adc_0: "adc_qsys" instantiated altera_modular_adc "modular_adc_0"
+Info: rst_controller: "adc_qsys" instantiated altera_reset_controller "rst_controller"
+Info: control_internal: "modular_adc_0" instantiated altera_modular_adc_control "control_internal"
+Info: adc_qsys: Done "adc_qsys" with 5 modules, 12 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\trgre\Documents\UIUC\2020-2021-Junior\ECE385\FinalProjectHelperFiles\DE10-Lite_v.2.1.0_SystemCD\Demonstrations\ADC_RTL\adc_qsys\adc_qsys.spd --output-directory=C:/Users/trgre/Documents/UIUC/2020-2021-Junior/ECE385/FinalProjectHelperFiles/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/ADC_RTL/adc_qsys/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\trgre\Documents\UIUC\2020-2021-Junior\ECE385\FinalProjectHelperFiles\DE10-Lite_v.2.1.0_SystemCD\Demonstrations\ADC_RTL\adc_qsys\adc_qsys.spd --output-directory=C:/Users/trgre/Documents/UIUC/2020-2021-Junior/ECE385/FinalProjectHelperFiles/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/ADC_RTL/adc_qsys/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/trgre/Documents/UIUC/2020-2021-Junior/ECE385/FinalProjectHelperFiles/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/ADC_RTL/adc_qsys/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/Users/trgre/Documents/UIUC/2020-2021-Junior/ECE385/FinalProjectHelperFiles/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/ADC_RTL/adc_qsys/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/trgre/Documents/UIUC/2020-2021-Junior/ECE385/FinalProjectHelperFiles/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/ADC_RTL/adc_qsys/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/trgre/Documents/UIUC/2020-2021-Junior/ECE385/FinalProjectHelperFiles/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/ADC_RTL/adc_qsys/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	4 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/trgre/Documents/UIUC/2020-2021-Junior/ECE385/FinalProjectHelperFiles/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/ADC_RTL/adc_qsys/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/trgre/Documents/UIUC/2020-2021-Junior/ECE385/FinalProjectHelperFiles/DE10-Lite_v.2.1.0_SystemCD/Demonstrations/ADC_RTL/adc_qsys/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\trgre\Documents\UIUC\2020-2021-Junior\ECE385\FinalProjectHelperFiles\DE10-Lite_v.2.1.0_SystemCD\Demonstrations\ADC_RTL\adc_qsys.qsys --block-symbol-file --output-directory=C:\Users\trgre\Documents\UIUC\2020-2021-Junior\ECE385\FinalProjectHelperFiles\DE10-Lite_v.2.1.0_SystemCD\Demonstrations\ADC_RTL\adc_qsys --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ADC_RTL/adc_qsys.qsys
+Progress: Reading input file
+Progress: Adding altpll_sys [altpll 18.1]
+Progress: Parameterizing module altpll_sys
+Progress: Adding clk_50 [clock_source 18.1]
+Progress: Parameterizing module clk_50
+Progress: Adding clock_bridge_sys [altera_clock_bridge 18.1]
+Progress: Parameterizing module clock_bridge_sys
+Progress: Adding modular_adc_0 [altera_modular_adc 18.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: adc_qsys.altpll_sys: altpll_sys.areset_conduit must be exported, or connected to a matching conduit.
+Warning: adc_qsys.altpll_sys: altpll_sys.pll_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\trgre\Documents\UIUC\2020-2021-Junior\ECE385\FinalProjectHelperFiles\DE10-Lite_v.2.1.0_SystemCD\Demonstrations\ADC_RTL\adc_qsys.qsys --synthesis=VERILOG --output-directory=C:\Users\trgre\Documents\UIUC\2020-2021-Junior\ECE385\FinalProjectHelperFiles\DE10-Lite_v.2.1.0_SystemCD\Demonstrations\ADC_RTL\adc_qsys\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ADC_RTL/adc_qsys.qsys
+Progress: Reading input file
+Progress: Adding altpll_sys [altpll 18.1]
+Progress: Parameterizing module altpll_sys
+Progress: Adding clk_50 [clock_source 18.1]
+Progress: Parameterizing module clk_50
+Progress: Adding clock_bridge_sys [altera_clock_bridge 18.1]
+Progress: Parameterizing module clock_bridge_sys
+Progress: Adding modular_adc_0 [altera_modular_adc 18.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: adc_qsys.altpll_sys: altpll_sys.areset_conduit must be exported, or connected to a matching conduit.
+Warning: adc_qsys.altpll_sys: altpll_sys.pll_slave must be connected to an Avalon-MM master
+Info: adc_qsys: Generating adc_qsys "adc_qsys" for QUARTUS_SYNTH
+Info: altpll_sys: "adc_qsys" instantiated altpll "altpll_sys"
+Info: modular_adc_0: "adc_qsys" instantiated altera_modular_adc "modular_adc_0"
+Info: rst_controller: "adc_qsys" instantiated altera_reset_controller "rst_controller"
+Info: control_internal: "modular_adc_0" instantiated altera_modular_adc_control "control_internal"
+Info: adc_qsys: Done "adc_qsys" with 5 modules, 13 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

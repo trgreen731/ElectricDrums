@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z" File: C:/Users/trgre/Desktop/Programming/SystemVerilog/ElectricDrums/HexDriver.sv Line: 23
+Warning (10273): Verilog HDL warning at altera_modular_adc_control_fsm.v(716): extended using "x" or "z" File: C:/Users/trgre/Desktop/Programming/SystemVerilog/ElectricDrums/adc_qsys/synthesis/submodules/altera_modular_adc_control_fsm.v Line: 716

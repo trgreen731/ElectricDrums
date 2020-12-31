@@ -1,0 +1,32 @@
+# system info adc_qsys on 2020.12.31.16:36:00
+system_info:
+name,value
+DEVICE,10M50DAF484C7G
+DEVICE_FAMILY,MAX 10
+GENERATION_ID,1609454146
+#
+#
+# Files generated for adc_qsys on 2020.12.31.16:36:00
+files:
+filepath,kind,attributes,module,is_top
+simulation/adc_qsys.v,VERILOG,,adc_qsys,true
+simulation/submodules/adc_qsys_altpll_sys.vo,VERILOG,,adc_qsys_altpll_sys,false
+simulation/submodules/adc_qsys_modular_adc_0.v,VERILOG,,adc_qsys_modular_adc_0,false
+simulation/submodules/altera_reset_controller.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_synchronizer.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_controller.sdc,SDC,,altera_reset_controller,false
+simulation/submodules/altera_modular_adc_control.v,VERILOG,,altera_modular_adc_control,false
+simulation/submodules/altera_modular_adc_control_avrg_fifo.v,VERILOG,,altera_modular_adc_control,false
+simulation/submodules/altera_modular_adc_control_fsm.v,VERILOG,,altera_modular_adc_control,false
+simulation/submodules/chsel_code_converter_sw_to_hw.v,VERILOG,,altera_modular_adc_control,false
+simulation/submodules/fiftyfivenm_adcblock_primitive_wrapper.v,VERILOG,,altera_modular_adc_control,false
+simulation/submodules/fiftyfivenm_adcblock_top_wrapper.v,VERILOG,,altera_modular_adc_control,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+adc_qsys.altpll_sys,adc_qsys_altpll_sys
+adc_qsys.modular_adc_0,adc_qsys_modular_adc_0
+adc_qsys.modular_adc_0.control_internal,altera_modular_adc_control
+adc_qsys.rst_controller,altera_reset_controller
+adc_qsys.rst_controller_001,altera_reset_controller
